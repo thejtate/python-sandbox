@@ -1,0 +1,204 @@
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
+
+Core 
+========
+"The app gets data from a model, the view does something to the data and then renders a template containing the processed information. "
+
+
+
+
+
+
+=====
+Virtual Environment
+===== 
+Create a main folder to hold the env and django/apps
+$ mkdir djangoproj
+
+Create VE
+$ python3 -m venv myvenv
+
+Activate VE
+$ source [env-name]/bin/activate
+
+Deactive VE
+$ deactivate
+
+Doesn't hurt to check and upgrade pip
+(myvenv) ~$ pip install --upgrade pip
+(myvenv) ~$ pip install django==1.5.12
+(myvenv) ~$ django.get_version()
+
+
+
+
+
+
+=====
+Django Shell - Checking Objects
+=====
+python3 manage.py shell
+
+
+
+from [model-folder].models import [Model-class-name]
+[Model-Class].objects.all()
+[Model-Class].objects.filter(**kwags)
+
+
+
+
+
+
+=====
+Django 
+=====
+Create a skeleton project 
+$ django-admin startproject [name]
+
+
+
+EDITS FOR: mysite/settings.py
+-----
+TIME_ZONE = 'America/North_Dakota/Center'
+.
+.
+.
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+.
+.
+.
+ALLOWED_HOSTS = ['127.0.0.1', '.websiteurlhere.com']
+
+
+
+
+
+=====
+Django DB
+=====
+
+mysite/settings.py
+-----
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+
+$ python3 manage.py showmigrations
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
+
+
+.............
+Run the local server for testing - [[[Never use this for the live server!]]]
+.............
+$ python manage.py runserver
+
+
+
+
+.............
+Server port hung:
+.............
+$ ps auxw | grep runserver
+$ kill [PID#]
+
+
+
+
+=====
+Django - Create User
+=====
+$ python3 manage.py createsuperuser
+
+
+
+
+
+
+=====
+Django - Applications
+=====
+Always run new app init script in the project root: 
+$ python3 manage.py startapp [app-label]
+
+
+
+mysite/settings.py
+-----
+INSTALLED_APPS = [
+	...
+    'new-model-name-here',
+]
+
+
+Once done writing code for model (such as a new blog for example)
+
+Run the Migration to create a file to later apply to the database:
+(myvenv) ~/djangogirls$ python manage.py makemigrations blog
+
+Then update the DB:
+$ python3 manage.py migrate blog
+
+
+
+
+
+
+=====
+Github
+=====
+While in main project directory:
+$ git init
+
+
+$ touch .gitignore
+-------
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+
+
+$ git add --all .
+$ git commit -m "Whatever"
+$ git remote add origin https://github.com/<your-github-username>/<newly-created-github-repo>.git
+$ git push -u origin master
+
+
+
+
+
+
+
+
+
+======
+Deploying to live server
+======
+
+Migrate project
+------
+$ git clone https://github.com/<your-github-username>/<your-project>.git
+$ cd [project-dir]
+
+Create VE
+-------
+$ virtualenv --python=python3.5 myvenv
+$ source myvenv/bin/activate
+(myvenv) $  pip install django~=1.10.0
+
+Create DB
+-------
+(mvenv) $ python manage.py migrate
+(mvenv) $ python manage.py createsuperuser
+
+

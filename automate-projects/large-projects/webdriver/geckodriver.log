@@ -1,0 +1,534 @@
+1494880831328	geckodriver	INFO	Listening on 127.0.0.1:54828
+1494880833453	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494880838427	Marionette	INFO	Listening on port 54847
+1494880838561	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:40:39.437 plugin-container[34494:4844049] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:40:39.438 plugin-container[34494:4844049] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494880896603	geckodriver	INFO	Listening on 127.0.0.1:55211
+1494880898242	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494880904719	Marionette	INFO	Listening on port 55221
+1494880904938	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:41:46.529 plugin-container[40775:4866800] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:41:46.536 plugin-container[40775:4866800] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:44:01.647 plugin-container[58547:4921272] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:44:01.650 plugin-container[58547:4921272] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.error: 
+  stylesheets actor: fetch failed for https://funneleyes.com/sites/default/files/advagg_css/css__W3w7D04ecFtH1vdn_yV_l_LCecOkhOZpWZOq4T8oSiY__W3iyyIbaWnnxig4IMOWsq_QtwFZBUpVQuEu_rNGcHI0__C9Cv19VqYGFgqXBOWBdCoWewOPt8GIPUOEiPK_mwBnk.css, using system principal instead.
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1494881268456	geckodriver	INFO	Listening on 127.0.0.1:56000
+1494881270103	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494881274607	Marionette	INFO	Listening on port 56006
+1494881274809	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:47:55.613 plugin-container[60972:4978410] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:47:55.615 plugin-container[60972:4978410] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494881293277	geckodriver	INFO	Listening on 127.0.0.1:56123
+1494881294295	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494881298631	Marionette	INFO	Listening on port 56130
+1494881298760	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:48:19.628 plugin-container[61141:4984452] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:48:19.629 plugin-container[61141:4984452] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/415, type getOriginalLocation failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:261:7
+_create@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:1070:23
+_populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:874:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/415, type getOriginalLocation failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:261:7
+_create@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:1070:23
+_populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:874:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/416, type getOriginalLocation failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:261:7
+_create@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:1070:23
+_populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:874:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/416, type getOriginalLocation failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:261:7
+_create@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:1070:23
+_populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:874:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/416, type getOriginalLocation failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:261:7
+_create@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:1070:23
+_populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/rules/rules.js:874:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.warn: Could not fetch the source for https://funneleyes.com/sites/default/files/advagg_css/css__H2ymhy54urFMa3-KFwkqrOmNNkQ2rddmvc4GaREvdEQ__AlhA7heQxKKY07wT6y9Q4_YYGKf8IlC6KYQUxUVepmA__C9Cv19VqYGFgqXBOWBdCoWewOPt8GIPUOEiPK_mwBnk.css, the editor was destroyed
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/410, type getText failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+_getSourceTextAndPrettify@resource://devtools/client/styleeditor/StyleSheetEditor.jsm:271:12
+fetchSource@resource://devtools/client/styleeditor/StyleSheetEditor.jsm:291:12
+StyleEditorUI.prototype._addStyleSheetEditor<@resource://devtools/client/styleeditor/StyleEditorUI.jsm:356:11
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+StyleEditorUI.prototype._addStyleSheet<@resource://devtools/client/styleeditor/StyleEditorUI.jsm:304:24
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+StyleEditorUI.prototype._resetStyleSheetList<@resource://devtools/client/styleeditor/StyleEditorUI.jsm:253:15
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/styleeditor/styleeditor-panel.js:143:7
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2289:26
+onClick@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:239:9
+invokeGuardedCallback@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:11
+send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1743, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:11
+send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1743, column: 11
+onPacket threw an exception: Error: Server did not specify an actor, dropping packet: {"error":"unknownError","message":"error occurred while processing 'detach: TypeError: this.walker is null\nStack: get conn@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:215:5\nparent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:749:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:834:18\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:224:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:81:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:2667:5\nremoveActor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:261:7\nAPDestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:224:7\nremoveActorPool/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1547:27\nremoveActorPool@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1547:9\n_detach@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:894:7\nonDetach@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:936:10\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15\nreceiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7\nLine: 215, column: 5"}
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:943:9
+send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 943, column: 9
+console.error: 
+  onPacket threw an exception: Error: Server did not specify an actor, dropping packet: {"error":"unknownError","message":"error occurred while processing 'detach: TypeError: this.walker is null\nStack: get conn@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:215:5\nparent@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:749:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:834:18\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:224:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:81:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:925:5\ndestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:2667:5\nremoveActor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:261:7\nAPDestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:224:7\nremoveActorPool/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1547:27\nremoveActorPool@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1547:9\n_detach@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:894:7\nonDetach@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:936:10\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15\nreceiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7\nLine: 215, column: 5"}
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:943:9
+send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 943, column: 9
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: deck is null
+Full stack: _refreshConsoleDisplay@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:750:7
+selectTool@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:1585:5
+DevTools.prototype.showToolbox<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools.js:403:15
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+inspectNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools-browser.js:309:12
+inspectNode@chrome://browser/content/nsContextMenu.js:571:12
+oncommand@chrome://browser/content/browser.xul:1:1
+
+*************************
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._toolbox is null
+Full stack: get selection@chrome://devtools/content/inspector/inspector.js:153:5
+inspectNode/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools-browser.js:314:11
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+*************************
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._toolbox is null
+Full stack: get selection@chrome://devtools/content/inspector/inspector.js:153:5
+inspectNode/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools-browser.js:314:11
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+*************************
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._toolbox is null
+Full stack: get selection@chrome://devtools/content/inspector/inspector.js:153:5
+inspectNode/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools-browser.js:314:11
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+
+*************************
+Handler function threw an exception: TypeError: this.threadActor is null
+Stack: exit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:502:7
+ContentActor.prototype.exit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/childtab.js:70:3
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:488:5
+removeActor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:261:7
+APDestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:224:7
+onClosed/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1869:35
+onClosed@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1869:5
+close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:756:7
+close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1486:7
+onDisconnect<@resource://devtools/server/child.js:98:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 502, column: 7
+console.error: 
+  Handler function threw an exception: TypeError: this.threadActor is null
+Stack: exit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:502:7
+ContentActor.prototype.exit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/childtab.js:70:3
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:488:5
+removeActor@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:261:7
+APDestroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/common.js:224:7
+onClosed/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1869:35
+onClosed@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1869:5
+close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:756:7
+close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1486:7
+onDisconnect<@resource://devtools/server/child.js:98:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 502, column: 7
+2017-05-15 15:55:54.412 plugin-container[97663:5127998] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9733, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:55:54.413 plugin-container[97663:5127998] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494881868238	geckodriver	INFO	Listening on 127.0.0.1:56325
+1494881869820	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494881873128	Marionette	INFO	Listening on port 56331
+1494881873217	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:57:53.827 plugin-container[4146:5162324] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:57:53.828 plugin-container[4146:5162324] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494881909543	geckodriver	INFO	Listening on 127.0.0.1:56418
+1494881910571	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494881915021	Marionette	INFO	Listening on port 56424
+1494881915194	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 15:58:36.131 plugin-container[7141:5175079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 15:58:36.133 plugin-container[7141:5175079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1494882448838	geckodriver	INFO	Listening on 127.0.0.1:56666
+1494882450310	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494882454824	Marionette	INFO	Listening on port 56672
+1494882454976	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 16:07:35.819 plugin-container[33097:5333393] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 16:07:35.821 plugin-container[33097:5333393] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494882514464	geckodriver	INFO	Listening on 127.0.0.1:56913
+1494882515768	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494882520136	Marionette	INFO	Listening on port 56920
+1494882520256	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 16:08:41.109 plugin-container[33773:5349018] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 16:08:41.110 plugin-container[33773:5349018] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494882541875	geckodriver	INFO	Listening on 127.0.0.1:57032
+1494882543049	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494882547164	Marionette	INFO	Listening on port 57038
+1494882547305	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-15 16:09:08.195 plugin-container[33971:5355467] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-15 16:09:08.197 plugin-container[33971:5355467] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/inspector/css-logic.js, line 355: Error: findCssSelector received element not inside document
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1494949350523	geckodriver	INFO	Listening on 127.0.0.1:61040
+1494949352589	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494949356025	Marionette	INFO	Listening on port 61046
+1494949356146	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 10:42:36.730 plugin-container[8326:5901870] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 10:42:36.732 plugin-container[8326:5901870] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9807, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494949559752	geckodriver	INFO	Listening on 127.0.0.1:61148
+1494949561181	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494949563745	Marionette	INFO	Listening on port 61154
+1494949563849	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 10:46:04.370 plugin-container[8363:5906576] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 10:46:04.371 plugin-container[8363:5906576] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494949606879	geckodriver	INFO	Listening on 127.0.0.1:61229
+1494949608441	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494949610929	Marionette	INFO	Listening on port 61236
+1494949611018	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 10:46:51.538 plugin-container[8370:5907806] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 10:46:51.539 plugin-container[8370:5907806] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1494449782.js?gk_enable=raf_safari_fix, line 63: NS_ERROR_FAILURE: 
+JavaScript error: https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1494449782.js?gk_enable=raf_safari_fix, line 63: NS_ERROR_FAILURE: 
+JavaScript error: https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1494449782.js?gk_enable=raf_safari_fix, line 63: NS_ERROR_FAILURE: 
+JavaScript error: https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1494449782.js?gk_enable=raf_safari_fix, line 63: NS_ERROR_FAILURE: 
+JavaScript error: https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1494449782.js?gk_enable=raf_safari_fix, line 63: NS_ERROR_FAILURE: 
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1494950863366	geckodriver	INFO	Listening on 127.0.0.1:61587
+1494950865129	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494950867821	Marionette	INFO	Listening on port 61593
+1494950867919	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 11:07:48.523 plugin-container[8451:5930548] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 11:07:48.524 plugin-container[8451:5930548] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494950994820	geckodriver	INFO	Listening on 127.0.0.1:61790
+1494950995589	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494950997896	Marionette	INFO	Listening on port 61794
+1494950997974	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 11:09:58.526 plugin-container[8462:5933591] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 11:09:58.527 plugin-container[8462:5933591] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1494959563215	geckodriver	INFO	Listening on 127.0.0.1:51867
+1494959564861	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494959568753	Marionette	INFO	Listening on port 51882
+1494959568881	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-16 13:32:49.787 plugin-container[8942:6015685] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 13:32:49.788 plugin-container[8942:6015685] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
