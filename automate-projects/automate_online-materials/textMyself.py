@@ -5,8 +5,8 @@
 # Preset values:
 accountSID = 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 authToken  = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-myNumber = '+15559998888'
-twilioNumber = '+15552225678'
+myNumber = '+xxxxxxxxxxxx'
+twilioNumber = '+xxxxxxxxxxxx'
 
 from twilio.rest import TwilioRestClient
 
